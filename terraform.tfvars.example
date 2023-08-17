@@ -1,0 +1,8 @@
+gcp_project_id          = "your-project-name"
+# Make sure you export this variable on your working environment before starting to use terraform for this project:
+# e.g.: export "GOOGLE_APPLICATION_CREDENTIALS=/your/path/to/credentials/file.json"
+gcp_credentials_file    = "your-gcpproject-service-credentials-file-path"
+gcp_region		= "us-west1"
+k8s_privkey           = "~/.ssh/id_rsa"
+k8s_pubkey            = "~/.ssh/id_rsa.pub"
+source_ext_cidr         = "your-source-public-ip"
