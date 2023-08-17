@@ -6,7 +6,7 @@
 - The remaining instances will be master/workers of the k8s cluster
 
 ## The goals:
-- As kubekey does the big lift of installing Kubesphere and Kubernetes, we have not decided to create ansible playbooks on our won. Instead the approach was to run some tasks on remote-exec to overcome the basic elements that need to be there for that to happen
+- As kubekey does the big lift of installing Kubesphere and Kubernetes, we have not decided to create ansible playbooks on our own. Instead the approach was to run some tasks on remote-exec to overcome the basic elements that need to be there for that to happen
 - Another major goal is to have a code that can survive upgrades of kubekey/kubesphere/kubernetes versions so we can deploy newer versions as they become available
 - Another major goal is that we can do it the full deployment with just a "terraform apply" instead of having to manually run commands from the bastion or other instances
 
